@@ -113,7 +113,7 @@ visibility: hidden;
     opacity: 1;
     visibility: visible;
 }
-.contenedor{
+.container-modal{
 
     margin: auto;
     background-color: rgb(240, 240, 240);
@@ -123,15 +123,15 @@ visibility: hidden;
     transform: translateY(-30%);
 
 }
-#btn-modal:checked ~ .modal .contenedor{
+#btn-modal:checked ~ .modal .container-modal{
 transform: translateY(0%);
 }
-.contenedor header{
+.container-modal header{
     padding: 10px;
     background:rgb(231, 224, 243) ;
     font-weight: 600;
 }
-.contenedor .close{
+.container-modal .close{
     position: absolute;
     top: 10px;
     right: 10px;
@@ -156,7 +156,7 @@ transform: translateY(0%);
 }
 
 
-.contenido{
+.container{
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -211,6 +211,16 @@ width: 100%;
     }
  
    
+}
+@media (max-width:313px) {
+    .container-modal{
+      width: 90%;
+    }
+    .container-input{
+        display: flex;
+        flex-direction: column;
+  
+    }
 }
 @media (min-width:470px) {
     .card-user{

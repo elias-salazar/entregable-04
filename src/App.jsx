@@ -73,12 +73,12 @@ function App() {
             <i class="fa-solid fa-user-plus"></i> Add user
           </label>
           <div className="modal">
-            <div className="contenedor">
+            <div className="container-modal">
               <header>New User</header>
               <label onClick={checkedBox} className="close" htmlFor="btn-modal">
                 x
               </label>
-              <div className="contenido">
+              <div className="container">
                 <UsersForm
                   getUsers={getUsers}
                   userSelected={userSelected}
