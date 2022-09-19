@@ -61,7 +61,7 @@ function App() {
         <h1>User List</h1>
         <input
           type="text"
-          placeholder="Search user"
+          placeholder="filter by name"
           value={searchUser}
           onChange={(e) => setSearchUser(e.target.value)}
         />
