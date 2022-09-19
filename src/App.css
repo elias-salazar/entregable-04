@@ -35,6 +35,9 @@
 }
 .search h1{
     text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+
 }
 .content-add-users{
 display: flex;

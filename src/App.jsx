@@ -58,7 +58,7 @@ function App() {
   return (
     <div className="App">
       <div className="search">
-        <h1>Lista de usuarios</h1>
+        <h1>User List</h1>
         <input
           type="text"
           placeholder="Search user"
